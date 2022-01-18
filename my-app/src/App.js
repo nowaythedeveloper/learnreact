@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Time from './Date'
+import User from './User'
+import Counter from './Counter'
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
           <Time />
+          <User name = 'Nikita' email = 'nikav1999@yandex.ru' />
+          <Counter />
         </p>
         <a
           className="App-link"
